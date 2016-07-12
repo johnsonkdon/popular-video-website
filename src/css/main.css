@@ -6,8 +6,18 @@
 
 
 
+#searchInput{
+    margin-right: 50px;
+}
+
+.navbar-inverse {
+    background-image:none;
+    background-color: #7dffcd;
+}
 
 
+.navbar-collapse {
+}
 
 
 
