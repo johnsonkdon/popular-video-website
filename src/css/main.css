@@ -1,22 +1,39 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+    font-family: myFirstFont;
+    src: url("../fonts/myFont.woff");
 
+}
 
-
-#searchInput{
+#searchInput {
     margin-right: 50px;
+    min-width: 500px;
+}
+
+.btn-login {
+    font-size: large;
 }
 
 .navbar-inverse {
-    background-image:none;
+    background-image: none;
     background-color: #7dffcd;
 }
 
-
 .navbar-collapse {
+}
+
+.jumbotron {
+    background-color: #FFFFFF;
+}
+
+.jumbotron h1{
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    font-family: "myFirstFont";
+    font-size: 72px;
 }
 
 
