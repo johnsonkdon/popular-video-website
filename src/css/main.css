@@ -7,6 +7,20 @@
 
 }
 
+@font-face {
+    font-family: mySecondFont;
+    src: url("../fonts/myFont2.woff");
+
+}
+
+a {
+    text-decoration: none !important;
+}
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
 #searchInput {
     margin-right: 50px;
     min-width: 500px;
@@ -28,30 +42,54 @@
     background-color: #FFFFFF;
 }
 
-.jumbotron h1{
+ h1{
     text-align: center;
     font-weight: bold;
     font-style: normal;
     font-family: "myFirstFont";
     font-size: 72px;
+    color: rgb(51,51,51);;
 }
 
-
-.svg-container {
-    display: inline-block;
-    position: relative;
-    width: 22%;
-    padding-bottom: 20%; /* depends on svg ratio, for my zebra height/width = 1.2 so padding-bottom = 50% * 1.2 = 60% */
-    vertical-align: middle; /* top | middle | bottom ... do what you want */
+.bg-container {
+    height: 265px;
+    background: url("../img/bg_home.png") no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
-.svg-element {
-    display: block;
+.bg-container a {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; /* only required for <img /> */
+    font-family: mySecondFont;
+    font-size: 3rem;
+    color: rgb(71, 71, 71);
+    font-weight:bold;
 }
+
+.bg-anchor-top {
+    top:50px;
+}
+
+.bg-anchor-bottom {
+    top:180px;
+}
+
+.anchor-info {
+    background-color: rgb(255, 238, 237);
+    padding: 0 10px;
+    left: -20px;
+}
+
+.bg-grey{
+    background-color: rgb(247, 247, 247)
+}
+
+.video-wapper {
+    margin-bottom: 50px;
+}
+
 
 
 
