@@ -62,7 +62,7 @@ body {
 
 .bg-container a {
     position: absolute;
-    font-family: mySecondFont;
+    font-family: "mySecondFont";
     font-size: 3rem;
     color: rgb(71, 71, 71);
     font-weight:bold;
@@ -88,6 +88,15 @@ body {
 
 .video-wapper {
     margin-bottom: 50px;
+}
+
+.bg-footer {
+    padding: 30px 0;
+}
+
+.bg-footer ul{
+    list-style: none;
+    padding: 0;
 }
 
 
